@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> E04 </title>
+	<meta charset="UTF-8">
+	
+	<link rel="stylesheet" href="fridge.css">
+	
+</head>
+
+<body onload="doStartClock();" style="background-color: lightblue;">
+	
+	
+	<div id="fridge" style="background-color:black; border: solid black; margin-top: 10px; margin-bottom: 10px; padding: 2px 2px 2px 2px; width: 30%; height: 1200px; margin:auto;">
+		<input class="button" type=button onclick="on()" id="onbutton" value="ON"> 
+		<input class="button" type=button onclick="off()" id="offbutton" value="OFF"> 
+		<p id="temp" style="float:right;color: black; font-size: 40px; margin-top: 2px; margin-right: 5px;"> 25&deg;F  </p>
+		<p id="timePar" style="color:white; font-size:2em; font-family: 'Courier New', Courier, monospace; text-align: center; color:purple; margin-left:80px">00:00:00</p>
+		<img style="margin:auto; width:100%; height:400px;" src= "https://cdn3.iconfinder.com/data/icons/smileys-people-smiley-essential/48/v-71-512.png" id="asleep" />
+		<img style="margin:auto; width:100%; height:300px;" src= "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/2048px-Solid_black.svg.png" id="tv" />
+		<br><br><br>
+		<img style="margin:auto; width:100%; height:300px;" src= "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/2048px-Solid_black.svg.png" id="browser" />
+	</div>
+	
+	<footer>
+		<hr>
+		<small> &copy; A. LaPeruta, March 5, 2024 </small>
+	</footer>
+	
+	
+</body>
+
+<script src="fridge.js"> </script>
+
+</html>
