@@ -22,6 +22,8 @@
     
 	<p> Here you can find the links to my System Design Github Repository! </p>
 	
+	<p id="files">
+	
     <script>
 	function githubFilelist(){
 				
@@ -37,18 +39,18 @@
     		for (let file of data) {
 				
 				fname = file.name;           
-				fpath = '<a href="https://github.com/AnastasiaLaPeruta/SD330/' + fname + '"> </a>';  
+				fpath = fname;  
 				
 				htmlString += "<p>" + fname ;
-				htmlString += "<p>" + fpath ;
+				htmlString += '<p> <a href="https://github.com/AnastasiaLaPeruta/SD330/' + fpath + '"</a>';
 			}
         
 		document.getElementById('files').innerHTML = htmlString;
 		})()
 	
 	}
-	githubFileList();
 	
+	 githubFilelist();
 	
 	</script>	
 	
