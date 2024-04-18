@@ -15,7 +15,7 @@
 
 <!--  ******************************************************************************************************** -->
     <body>
-	<div>
+	<div style=" text-align: center;">
 	<h2> Anastasia LaPeruta's GitHub File List </h2>
 	
 	<img src= "avatar.jpg" id="avatar" />
@@ -39,10 +39,10 @@
     		for (let file of data) {
 				
 				fname = file.name;           
-				fpath = fname;  
+				fpath = "https://anastasialaperuta.github.io/SD330/" + fname;  
 				
-				htmlString += "<p>" + fname ;
-				htmlString += '<p> <a href="https://github.com/AnastasiaLaPeruta/SD330/' + fpath + '"</a>';
+				htmlString += "<p>" + "<a href='" + fpath + "'" + "</a>";
+				htmlString += "<ul><li>" + fname + "</li></ul>";
 			}
         
 		document.getElementById('files').innerHTML = htmlString;
