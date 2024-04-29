@@ -1,94 +1,147 @@
 {
-	"parkingLots": {
-		"McCann/Sheahan": {
+	"parkingLots": [
+		{
+			"name": "McCann/Sheahan",
+			"mapFilename": "mccannMap.jpg"
+			"isLotClosed": "yes",
+			"type": "all",
+			"comments": "This lot is temporarily closed for construction.",
 			"open": 15,
 			"unavailable": 7,
-			"handicappedParking": "yes"
+			"handicappedParking": "yes",
+			"spots":[
+				{
+					"type": "commuter",
+					"isHandicap": "yes",
+					"isAvailable": "no",
+					"reservedTime": "04-29-2024 5:50:35 PM",
+					"filledTime": "04-29-2024 5:59:04 PM"
+				},
+				{
+					"type": "faculty/staff",
+					"isHandicap": "no",
+					"isAvailable": "no",
+					"reservedTime": "04-30-2024 7:50:35 AM",
+					"filledTime": "04-30-2024 7:59:04 AM"
+				},
+				{
+					"type": "resident",
+					"isHandicap": "yes",
+					"isAvailable": "no",
+					"reservedTime": "04-30-2025 8:53:40 AM",
+					"filledTime": "04-30-2025 9:00:49 AM"
+				},
+				{
+					"type": "faculty/staff",
+					"isHandicap": "no",
+					"isAvailable": "no",
+					"reservedTime": "05-19-2024 7:59:35 AM",
+					"filledTime": "05-19-2024 8:00:00 AM"
+				},
+				{
+					"type": "resident",
+					"isHandicap": "yes",
+					"isAvailable": "no",
+					"reservedTime": "04-04-2024 10:05:00 AM",
+					"filledTime": "04-04-2024 10:10:04 AM"
+				},
+				{
+					"type": "commuter",
+					"isHandicap": "no",
+					"isAvailable": "no",
+					"rservedTime": "04-30-2024 7:50:35 AM",
+					"filledTime": "04-30-2024 7:59:04 AM"
+				},
+				{
+					"type": "visitor",
+					"isHandicap": "yes",
+					"isAvailable": "no",
+					"reservedTime": "04-16-2024 11:30:35 PM",
+					"filledTime": "04-16-2024 11:59:30 PM"
+				},
+				{
+					"type": "faculty/staff",
+					"isHandicap": "no",
+					"isAvailable": "yes",
+					"reservedTime": "N/A",
+					"filledTime": "N/A"
+				},
+				{
+					"type": "commuter",
+					"isHandicap": "no",
+					"isAvailable": "yes",
+					"reservedTime": "N/A",
+					"filledTime": "N/A"
+				},
+				{
+					"type": "vistor",
+					"isHandicap": "no",
+					"isAvailable": "no",
+					"reservedTime": "04-31-2024 5:50:35 AM",
+					"filledTime": "04-31-2024 5:59:04 AM"
+				},
+				{
+					"type": "resident",
+					"isHandicap": "no",
+					"isAvailable": "yes",
+					"reservedTime": "N/A",
+					"filledTime": "N/A"
+				},
+				{
+					"type": "faculty/staff",
+					"isHandicap": "no",
+					"isAvailable": "no",
+					"reservedTime": "09-30-2024 6:37:35 PM",
+					"filledTime": "09-30-2024 6:59:04 PM"
+				}
+				
+			]
 		},
-		"Foy":  {
-			"open": 23,
-			"unavailable": 1,
-			"handicappedParking": "no"
-		},
-		"Dyson":  {
-			"open": 19,
-			"unavailable": 0,
-			"handicappedParking": "yes"
-		},
-		"Donnelly":  {
+		{
+			"name": "Foy",
+			"mapFilename": "foyMap.jpg",
+			"isLotClosed": "yes"
+			"type": "commuter",
+			"comments": "This lot is temporarily closed for construction.",
 			"open": 0,
-			"unavailable": 20,
-			"handicappedParking": "yes"
-		},
-		"Fontaine":  {
-			"open": 5,
-			"unavailable": 12,
+			"unavailable": 18,
 			"handicappedParking": "no"
 		},
-		"Hoop":  {
-			"open": 19,
-			"unavailable": 0,
-			"handicappedParking": "no"
-		},
-		"St. Ann's/North End":  {
-			"open": 5,
-			"unavailable": 7,
+			"name": "Dyson",
+			"mapFilename": "dysonMap.jpg",
+			"isLotClosed": "yes"
+			"type": "resident",
+			"comments": "This lot is temporarily unavailable due to a campus event.",
+			"open": 0,
+			"unavailable": 19,
 			"handicappedParking": "yes"
 		},
-		"Beck West":  {
-			"open": 32,
-			"unavailable": 2,
-			"handicappedParking": "no"
-		},
-		"Beck East":  {
-			"open": 5,
-			"unavailable": 27,
-			"handicappedParking": "yes"
-		},
-		"Midrise":  {
-			"open": 21,
-			"unavailable": 14,
-			"handicappedParking": "yes"
-		},
-		"Steel Plant":  {
-			"open": 1,
-			"unavailable": 20,
-			"handicappedParking": "no"
-		},
-		"Riverview": {
+			"name": "Donnelly",
+			"mapFilename": "donnellyMap.jpg",
+			"isLotClosed": "no"
+			"type": "faculty/staff",
+			"comments": "This lot is open during normal business hours for faculy and staff only.",
 			"open": 20,
-			"unavailable": 7,
-			"handicappedParking": "no"
-		},
-		"Allied Health & Science":  {
-			"open": 29,
 			"unavailable": 2,
 			"handicappedParking": "yes"
 		},
-		"Lower West Cedar":  {
-			"open": 10,
-			"unavailable": 10,
-			"handicappedParking": "yes"
-		},
-		"69 West Cedar":  {
-			"open": 2,
-			"unavailable": 27,
+			"name": "Fontaine",
+			"mapFilename": "fontaineMap.jpg",
+			"isLotClosed": "no"
+			"type": "visitor",
+			"comments": "This lot is only available for visitors. All others will be ticketed.",
+			"open": 5,
+			"unavailable": 12,
 			"handicappedParking": "no"
 		},
-		"Fulton/Tennis Court":  {
-			"open": 29,
-			"unavailable": 12,
-			"handicappedParking": "yes"
-		},
-		"51/57 Fulton":  {
-			"open": 15,
-			"unavailable": 3,
-			"handicappedParking": "yes"
-		},
-		"Upper West Cedar":  {
-			"open": 0,
-			"unavailable": 29,
-			"handicappedParking": "yes"
-		},
-	}
+			"name": "Riverview",
+			"mapFilename": "riverviewMap.jpg",
+			"isLotClosed": "no"
+			"type": "commuter",
+			"comments": "This lot is open 24/7 to residents only.",
+			"open": 19,
+			"unavailable": 0,
+			"handicappedParking": "no"
+		}
+	]
 }
