@@ -1,0 +1,94 @@
+{
+	"parkingLots": {
+		"McCann/Sheahan": {
+			"open": 15,
+			"unavailable": 7,
+			"handicappedParking": "yes"
+		},
+		"Foy":  {
+			"open": 23,
+			"unavailable": 1,
+			"handicappedParking": "no"
+		},
+		"Dyson":  {
+			"open": 19,
+			"unavailable": 0,
+			"handicappedParking": "yes"
+		},
+		"Donnelly":  {
+			"open": 0,
+			"unavailable": 20,
+			"handicappedParking": "yes"
+		},
+		"Fontaine":  {
+			"open": 5,
+			"unavailable": 12,
+			"handicappedParking": "no"
+		},
+		"Hoop":  {
+			"open": 19,
+			"unavailable": 0,
+			"handicappedParking": "no"
+		},
+		"St. Ann's/North End":  {
+			"open": 5,
+			"unavailable": 7,
+			"handicappedParking": "yes"
+		},
+		"Beck West":  {
+			"open": 32,
+			"unavailable": 2,
+			"handicappedParking": "no"
+		},
+		"Beck East":  {
+			"open": 5,
+			"unavailable": 27,
+			"handicappedParking": "yes"
+		},
+		"Midrise":  {
+			"open": 21,
+			"unavailable": 14,
+			"handicappedParking": "yes"
+		},
+		"Steel Plant":  {
+			"open": 1,
+			"unavailable": 20,
+			"handicappedParking": "no"
+		},
+		"Riverview": {
+			"open": 20,
+			"unavailable": 7,
+			"handicappedParking": "no"
+		},
+		"Allied Health & Science":  {
+			"open": 29,
+			"unavailable": 2,
+			"handicappedParking": "yes"
+		},
+		"Lower West Cedar":  {
+			"open": 10,
+			"unavailable": 10,
+			"handicappedParking": "yes"
+		},
+		"69 West Cedar":  {
+			"open": 2,
+			"unavailable": 27,
+			"handicappedParking": "no"
+		},
+		"Fulton/Tennis Court":  {
+			"open": 29,
+			"unavailable": 12,
+			"handicappedParking": "yes"
+		},
+		"51/57 Fulton":  {
+			"open": 15,
+			"unavailable": 3,
+			"handicappedParking": "yes"
+		},
+		"Upper West Cedar":  {
+			"open": 0,
+			"unavailable": 29,
+			"handicappedParking": "yes"
+		},
+	}
+}
