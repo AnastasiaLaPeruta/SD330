@@ -8,5 +8,4 @@ async function loadJSON() {
     });
 
     document.getElementById('parkingLotNames').innerHTML = htmlString;
-    }
 }
