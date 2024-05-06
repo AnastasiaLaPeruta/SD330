@@ -2,7 +2,7 @@
 	"parkingLots": [
 		{
 			"name": "McCann/Sheahan",
-			"mapFilename": "mccannMap.jpg"
+			"mapFilename": "mccannMap.jpg",
 			"isLotClosed": "yes",
 			"type": "all",
 			"comments": "This lot is temporarily closed for construction.",
@@ -100,43 +100,47 @@
 		{
 			"name": "Foy",
 			"mapFilename": "foyMap.jpg",
-			"isLotClosed": "yes"
+			"isLotClosed": "yes",
 			"type": "commuter",
 			"comments": "This lot is temporarily closed for construction.",
 			"open": 0,
 			"unavailable": 18,
 			"handicappedParking": "no"
 		},
+		{
 			"name": "Dyson",
 			"mapFilename": "dysonMap.jpg",
-			"isLotClosed": "yes"
+			"isLotClosed": "yes",
 			"type": "resident",
 			"comments": "This lot is temporarily unavailable due to a campus event.",
 			"open": 0,
 			"unavailable": 19,
 			"handicappedParking": "yes"
 		},
+		{
 			"name": "Donnelly",
 			"mapFilename": "donnellyMap.jpg",
-			"isLotClosed": "no"
+			"isLotClosed": "no",
 			"type": "faculty/staff",
 			"comments": "This lot is open during normal business hours for faculy and staff only.",
 			"open": 20,
 			"unavailable": 2,
 			"handicappedParking": "yes"
 		},
+		{
 			"name": "Fontaine",
 			"mapFilename": "fontaineMap.jpg",
-			"isLotClosed": "no"
+			"isLotClosed": "no",
 			"type": "visitor",
 			"comments": "This lot is only available for visitors. All others will be ticketed.",
 			"open": 5,
 			"unavailable": 12,
 			"handicappedParking": "no"
 		},
+		{
 			"name": "Riverview",
 			"mapFilename": "riverviewMap.jpg",
-			"isLotClosed": "no"
+			"isLotClosed": "no",
 			"type": "commuter",
 			"comments": "This lot is open 24/7 to residents only.",
 			"open": 19,
