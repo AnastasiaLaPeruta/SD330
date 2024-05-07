@@ -8,8 +8,9 @@ async function getDetails() {
     const lot = data.parkingLots[lotIndex];
 
     let detailsHtml = `<h2>Details for ${lot.name}</h2><ul>`;
+	detailsHtml += '<img style="width: 200px; height: 200px; float:left;" src= "{lot['mapFilename']}" id="map" />';
     lot.spots.forEach(spot => {
-        detailsHtml += ` <img style="width: 200px; height: 200px; float:left;" src= "{lot['mapFilename']}" id="map" /><li>Type: ${spot.type}, Handicap: ${spot.isHandicap}, Available: ${spot.isAvailable}, Time Reserved: ${spot.reservedTime}, Time Filled: ${spot.filledTime}</li>`;
+        detailsHtml += ` <li>Type: ${spot.type}, Handicap: ${spot.isHandicap}, Available: ${spot.isAvailable}, Time Reserved: ${spot.reservedTime}, Time Filled: ${spot.filledTime}</li>`;
     });
     detailsHtml += "</ul>";
 
