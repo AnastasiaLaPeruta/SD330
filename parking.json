@@ -2,7 +2,7 @@
 	"parkingLots": [
 		{
 			"name": "McCann/Sheahan",
-			"mapFilename": "mccannMap.jpg",
+			"mapFilename": "https://anastasialaperuta.github.io/SD330//mccannMap.png",
 			"isLotClosed": "yes",
 			"type": "all",
 			"comments": "This lot is temporarily closed for construction.",
@@ -99,7 +99,7 @@
 		},
 		{
 			"name": "Foy",
-			"mapFilename": "foyMap.jpg",
+			"mapFilename": "https://anastasialaperuta.github.io/SD330//foyMap.png",
 			"isLotClosed": "yes",
 			"type": "commuter",
 			"comments": "This lot is temporarily closed for construction.",
@@ -196,7 +196,7 @@
 		},
 		{
 			"name": "Dyson",
-			"mapFilename": "dysonMap.jpg",
+			"mapFilename": "https://anastasialaperuta.github.io/SD330//dysonMap.png",
 			"isLotClosed": "yes",
 			"type": "resident",
 			"comments": "This lot is temporarily unavailable due to a campus event.",
@@ -293,7 +293,7 @@
 		},
 		{
 			"name": "Donnelly",
-			"mapFilename": "donnellyMap.jpg",
+			"mapFilename": "https://anastasialaperuta.github.io/SD330//donnellyMap.png",
 			"isLotClosed": "no",
 			"type": "faculty/staff",
 			"comments": "This lot is open during normal business hours for faculy and staff only.",
@@ -390,7 +390,7 @@
 		},
 		{
 			"name": "Fontaine",
-			"mapFilename": "fontaineMap.jpg",
+			"mapFilename": "https://anastasialaperuta.github.io/SD330//fontaineMap.png",
 			"isLotClosed": "no",
 			"type": "visitor",
 			"comments": "This lot is only available for visitors. All others will be ticketed.",
@@ -487,7 +487,7 @@
 		},
 		{
 			"name": "Riverview",
-			"mapFilename": "riverviewMap.jpg",
+			"mapFilename": "https://anastasialaperuta.github.io/SD330//riverviewMap.png",
 			"isLotClosed": "no",
 			"type": "commuter",
 			"comments": "This lot is open 24/7 to residents only.",
