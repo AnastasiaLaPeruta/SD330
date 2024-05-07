@@ -1,10 +1,10 @@
 /* This is the CSS code for the Marist Parking app */
 
-h1, h2 {text-align: center; color: #e55a53;}
+h1, h2 {font-family: sans serif; text-align: center; color: #e55a53;}
 
-.button {background-color: #e55a53; color: white; }
+.button {font-family: sans serif; background-color: #e55a53; color: white; }
 
-footer {background-color: #e55a53; color: white;}
+footer {font-family: sans serif; background-color: #e55a53; color: white;}
 
-	body { text-align: center; color: #e55a53;}
+body {font-family: sans serif; text-align: center; color: #e55a53;}
 
