@@ -4,7 +4,7 @@ h1, h2 {font-size: 35px; font-family: sans serif; text-align: center; color: #e5
 
 .button {font-size: 20px; font-family: sans serif; background-color: #e55a53; color: white; }
 
-footer { font-size: 20px; font-family: sans serif; background-color: #e55a53; color: white;}
+footer { height: 600px; font-size: 20px; font-family: sans serif; background-color: #e55a53; color: white;}
 
 body { font-size: 35px; font-family: sans serif; text-align: center; color: #e55a53;}
 
