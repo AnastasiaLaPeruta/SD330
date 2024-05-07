@@ -1,4 +1,5 @@
 async function getDetails() {
+	
     const urlParams = new URLSearchParams(window.location.search);
     const lotIndex = urlParams.get('lotIndex');
 
